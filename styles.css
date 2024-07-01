@@ -22,12 +22,60 @@ ul{
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: #f9faf8;
+    gap: 26em;
 }
 
 .header .Hero{
     font-size: 24px;
     color: #f9faf8;
+}
+
+.row2 .Hero{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8; 
+}
+
+p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.imagePlaceholder{
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+    height: 20em;
+    padding: 0 7em;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    align-items: flex-start;
+    width: 40em;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button{
+    font-weight: bold;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 1em;
+    padding: 10px 3em;
+    color: #e5e7eb;
 }
 
