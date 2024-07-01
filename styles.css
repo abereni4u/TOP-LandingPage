@@ -4,15 +4,20 @@ body{
     height: 100vh;
     justify-content: space-between;
     flex-direction: column;
-    background-color: #1f2937;
+    background-color: #9f65c5;
     font-family: monospace;
 }
+
+/* colors */
+
+
+
+
 
 /* HEADER */
 
 .header .Hero{
     font-weight: bold;
-    color: grey;
     width: 4em;
     aspect-ratio: 1/1;
     flex-shrink: 0;
@@ -41,7 +46,6 @@ ul{
 
 .header .Hero{
     font-size: 24px;
-    color: #f9faf8;
 }
 
 
@@ -76,13 +80,13 @@ p{
     flex-grow: 0;
     flex-shrink: 1;
     font-size: 18px;
-    color: #e5e7eb;
     height: 23em;
 }
 
 .imagePlaceholder img{
     height: 100%;
     width: 100%;
+    box-shadow: 10px 10px rgb(111, 199, 111);
 }
 
 .left{
@@ -94,9 +98,10 @@ p{
 }
 
 button{
-    font-weight: bold;
-    background-color: #3882f6;
-    border-color: #3882f6;
+    font-weight: bolder;
+    background-color: rgb(111, 199, 111);
+    border: 3px solid;
+    border-color: rgb(147, 237, 147);
     border-radius: 1em;
     padding: 10px 3em;
     color: #e5e7eb;
@@ -117,7 +122,7 @@ button{
 .row3 .Hero{
     font-size: 38px;
     font-weight: bold;
-    color: #1f2937;
+    color: #9f65c5;
 }
 
 
@@ -137,13 +142,13 @@ button{
 }
 
 .boxImage{
-    border: #3882f6 solid;
+    border: rgb(147, 237, 147) solid;
     border-radius: 2em;
     height: 200px;
 }
 
 .box p{
-    color: #1f2937;
+    color: #9f65c5;
 }
 
 /* ROW 4 */
@@ -167,11 +172,11 @@ button{
     text-align: end;
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;
+    color: #9f65c5;
 }
 
 .quoteSource{
-    color: #1f2937;
+    color: #9f65c5;
     font-weight: bold;
     font-size: 20px;
     margin-top: 1em;
@@ -191,7 +196,7 @@ button{
 }
 
 .row5 .container{
-    background-color: #3882f6;
+    background-color: rgb(111, 199, 111);
     display: flex;
     gap: 10em;
     padding: 3em 6em;
@@ -209,7 +214,7 @@ button{
 }
 
 .button2{
-    border:#f9faf8 solid;
+    border:rgb(147, 237, 147) solid;
 }
 
 /* FOOTER */
