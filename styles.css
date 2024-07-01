@@ -1,5 +1,6 @@
 body{
     display: flex;
+    width: 100vw;
     height: 100vh;
     justify-content: space-between;
     flex-direction: column;
@@ -25,6 +26,7 @@ ul{
     justify-content: space-evenly;
     color: #f9faf8;
     gap: 28em;
+    margin-bottom: 10em;
 }
 
 .header .Hero{
@@ -55,7 +57,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-grow: 0;
-    flex-shrink: 0;
+    flex-shrink: 1;
     font-size: 18px;
     color: #e5e7eb;
     height: 20em;
@@ -74,6 +76,7 @@ p{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 10em;
 }
 
 button{
@@ -92,6 +95,7 @@ button{
     background-color: white;
     padding: 7em;
     gap: 3em;
+    flex-grow: 1;
 }
 
 .row3 .container{
@@ -120,6 +124,7 @@ button{
 }
 
 .row4{
+    display: flex;
     background-color: #e5e7eb;
 }
 
@@ -146,3 +151,32 @@ button{
     margin-top: 1em;
 }
 
+.row5{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5em;
+}
+
+.row5 .container{
+    background-color: #3882f6;
+    display: flex;
+    gap: 10em;
+    padding: 3em 6em;
+    border-radius: .5em;
+}
+
+.conLeft{
+    color: white;
+}
+
+.conLeft .Hero{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.button2{
+    border:#f9faf8 solid;
+}
