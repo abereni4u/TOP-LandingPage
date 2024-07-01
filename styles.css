@@ -12,6 +12,12 @@ body{
 
 /* HEADER */
 
+header{
+   
+    padding: 2em 0;
+}
+
+
 .header .Hero{
     font-weight: bold;
     width: 4em;
@@ -28,16 +34,17 @@ ul{
     gap: 2em;
     list-style: none;
     font-size: 18px;
+    flex-basis: 10em;
 }
 
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: #f9faf8;
-    gap: 40em;
-    margin-bottom: 10em;
-    padding: 3em 4em;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .header .Hero{
@@ -49,18 +56,22 @@ ul{
 
 .row2{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 10em;
-    gap: 5em;
-    padding: 0em 2em;
+    margin: 0 auto;
+    padding: 4em 2em;
+    width: 100%;
+    max-width: 1000px;
 }
 
 .row2 .Hero{
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8; 
+}
+
+
+.row2Container{
 }
 
 p{
@@ -82,7 +93,6 @@ p{
 .imagePlaceholder img{
     height: 100%;
     width: 100%;
-    box-shadow: 10px 10px rgb(111, 199, 111);
 }
 
 .left{
