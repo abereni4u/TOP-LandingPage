@@ -180,3 +180,10 @@ button{
 .button2{
     border:#f9faf8 solid;
 }
+
+.footer{
+    font-size: 15px;
+    margin: 0 auto;
+    color: white;
+    padding: 4em;
+}
