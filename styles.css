@@ -10,8 +10,16 @@ body{
 
 /* HEADER */
 
-.Hero{
+.header .Hero{
     font-weight: bold;
+    color: grey;
+    width: 4em;
+    aspect-ratio: 1/1;
+    flex-shrink: 0;
+}
+
+.Hero img{
+    width: 100%;
 }
 
 ul{
@@ -26,8 +34,9 @@ ul{
     align-items: center;
     justify-content: space-evenly;
     color: #f9faf8;
-    gap: 30em;
+    gap: 40em;
     margin-bottom: 10em;
+    padding: 3em 4em;
 }
 
 .header .Hero{
@@ -44,7 +53,8 @@ ul{
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 10em;
-    gap: 2em;
+    gap: 5em;
+    padding: 0em 2em;
 }
 
 .row2 .Hero{
@@ -67,8 +77,12 @@ p{
     flex-shrink: 1;
     font-size: 18px;
     color: #e5e7eb;
-    height: 20em;
-    padding: 0 7em;
+    height: 23em;
+}
+
+.imagePlaceholder img{
+    height: 100%;
+    width: 100%;
 }
 
 .left{
